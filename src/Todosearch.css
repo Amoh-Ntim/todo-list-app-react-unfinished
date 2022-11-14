@@ -1,0 +1,80 @@
+*{
+    background-color: rgb(84, 82, 82);
+}
+.adding{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size: 70px;
+}
+.input{
+    width: 600px;
+    height: 50px;
+    color: white;
+    border-color: white;
+    font-size: larger;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.add{
+     font-size: 40px;
+     height: inherit;
+     margin-left: 20px;
+     margin-bottom: -15px;
+     color: white;
+}
+
+.logo{
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+.add:hover{
+    cursor: pointer;
+    color: rgb(141, 137, 137);
+}
+
+.task{
+    /* background-color: rgb(151, 144, 144); */
+}
+
+.items{
+    list-style: none;
+    color: aliceblue;
+    background-color: rgb(225, 167, 22);
+    margin-top: 40px;
+    margin-left: 0%;
+    position: static;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+    border-radius: 30px;
+    
+}
+
+.save {
+    margin-left: 5px;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0);
+    margin-top: 5px;
+}
+.delete{
+    margin-left: 5px;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0);
+    margin-top: 5px;
+}
+
+.save:hover{
+    color: black;
+    cursor: pointer;
+}
+.delete:hover{
+    color: black;
+    cursor: pointer;
+}
